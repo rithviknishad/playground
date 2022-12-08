@@ -22,7 +22,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
             });
-            console.log(result)
+            console.log(result.data.assignees)
             
 
       - name: Add comment
