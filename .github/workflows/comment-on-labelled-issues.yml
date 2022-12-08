@@ -11,23 +11,38 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
-    steps:
-      - name: GitHub Script
+    steps:            
+      - name: Add comment
         uses: actions/github-script@v6.3.3
         id: get-assignees
         with:
           script: |
+            const msg = ':warning: Refrain from assigning this issue to yourself if you have another P1 issue assigned that is not yet closed.'
+            const createCommentOptions = {
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            }
+            
             const result = await github.rest.issues.get({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-            });
-            console.log(result.data.assignees)
+            })
             
-
-      - name: Add comment
-        uses: peter-evans/create-or-update-comment@v2.1.0
-        with:
-          issue-number: ${{ github.event.issue.number }}
-          body: |
-            :warning: **Refrain from assigning this issue to yourself if you have another P1 issue assigned that is not yet closed.**
+            const { assignees } = result.data
+            if (assignees.length == 0) {
+              await github.rest.issues.createComment({
+                ...createCommentOptions,
+                body: '**' + msg + '**',
+              })
+              return
+            }
+            
+            const assignees_tagged = assignees.map((user) => '@' + user.login).join(' ')
+            await github.rest.issues.createComment({
+              ...createCommentOptions,
+              body: assignees_list + ' ' + msg + '\nKindly acknowledge this message by commenting "Acknowledged".',
+            })
+            
+            
