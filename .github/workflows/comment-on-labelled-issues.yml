@@ -39,7 +39,7 @@ jobs:
             const assignees_tagged = assignees.map((user) => '@' + user.login).join(' ')
             await github.rest.issues.createComment({
               ...options,
-              body: msg + `\n ${assignees_tagged} kindly acknowledge this message by commenting 'Acknowledged' below.`,
+              body: body + `\n ${assignees_tagged} kindly acknowledge this message by commenting 'Acknowledged' below.`,
             })
             
             
