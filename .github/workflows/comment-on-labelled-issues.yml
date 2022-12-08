@@ -17,9 +17,10 @@ jobs:
         id: get-assignees
         with:
           script: |
-            const result = await github.rest.issues.listAssignees({
-              owner: "rithviknishad",
-              repo: "playground",
+            const result = await github.rest.issues.get({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
             });
             console.log(result)
             
