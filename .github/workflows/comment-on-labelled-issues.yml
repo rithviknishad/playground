@@ -12,6 +12,18 @@ jobs:
     permissions:
       issues: write
     steps:
+      - name: GitHub Script
+        uses: actions/github-script@v6.3.3
+        id: get-assignees
+        with:
+          script: |
+            const result = await github.rest.issues.listAssignees({
+              owner: "rithviknishad",
+              repo: "playground",
+            });
+            console.log(result)
+            
+
       - name: Add comment
         uses: peter-evans/create-or-update-comment@v2.1.0
         with:
