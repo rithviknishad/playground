@@ -34,25 +34,38 @@ const octokit = new Octokit({
 async function raise_tasks() {
   let issue_numbers = [];
 
-  const taskChunks = require("./utils").splitToChunks(taskIssues, 16);
+  for (const taskIssue of taskIssues) {
+    const { data } = await octokit.issues.create({
+      owner,
+      repo,
+      ...taskIssue,
+    });
+    issue_numbers.push(data.number);
+    console.log(`Raised ${issue_numbers.length}/${taskIssues.length} tasks.`);
 
-  for (const taskChunk of taskChunks) {
-    const chunk_issue_numbers = await Promise.all(
-      taskChunk.map(async (taskIssue) => {
-        const { data } = await octokit.issues.create({
-          owner,
-          repo,
-          ...taskIssue,
-        });
-        return data.number;
-      })
-    );
-    issue_numbers.push(...chunk_issue_numbers);
-    console.log(
-      `Raised ${chunk_issue_numbers.length}/${taskIssues.length} tasks. Waiting for 10 seconds before dispatching next batch...`
-    );
-    await new Promise((resolve) => setTimeout(resolve, 10000));
+    if (issue_numbers.length % 20 === 0) {
+      console.log(
+        "Waiting for 1 minute before dispatching next batch to avoid rate limit..."
+      );
+      await new Promise((resolve) => setTimeout(resolve, 60000));
+    }
   }
+
+  // const taskChunks = require("./utils").splitToChunks(taskIssues, 16);
+
+  // for (const taskChunk of taskChunks) {
+  //   const chunk_issue_numbers = await Promise.all(
+  //     taskChunk.map(async (taskIssue) => {
+
+  //       return data.number;
+  //     })
+  //   );
+  //   issue_numbers.push(...chunk_issue_numbers);
+  //   console.log(
+  //     `Raised ${chunk_issue_numbers.length}/${taskIssues.length} tasks. Waiting for 10 seconds before dispatching next batch...`
+  //   );
+  //   await new Promise((resolve) => setTimeout(resolve, 10000));
+  // }
 
   return issue_numbers;
 }

@@ -17,315 +17,315 @@
     },
     "tasks": [
         {
-            "title": "Replace with CareUI components in `src/Components/Assets/AssetImportModal.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Assets/AssetImportModal.tsx`:",
             "imports": "      1: import { Modal } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Assets/AssetsList.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Assets/AssetsList.tsx`:",
             "imports": "      17: import CircularProgress from \"@material-ui/core/CircularProgress\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Auth/Login.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Auth/Login.tsx`:",
             "imports": "      4: import { Grid, CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Auth/ResetPassword.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Auth/ResetPassword.tsx`:",
             "imports": "      2: import { Typography, CardContent, Button } from \"@material-ui/core\";\\n      3: import { TextInputField, ErrorHelperText } from \"../Common/HelperInputFields\";\\n      6: import { createStyles, makeStyles, Theme } from \"@material-ui/core/styles\";\\n      7: import ExpansionPanel from \"@material-ui/core/ExpansionPanel\";\\n      8: import ExpansionPanelDetails from \"@material-ui/core/ExpansionPanelDetails\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Common/GLocationPicker.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Common/GLocationPicker.tsx`:",
             "imports": "      5: import PersonPinIcon from \"@material-ui/icons/PersonPin\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Common/LanguageSelector.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Common/LanguageSelector.tsx`:",
             "imports": "      2: import ExpandMoreIcon from \"@material-ui/icons/ExpandMore\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Common/Loading.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Common/Loading.tsx`:",
             "imports": "      2: import { Grid } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Common/LocationSelect.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Common/LocationSelect.tsx`:",
             "imports": "      4: import { AutoCompleteAsyncField } from \"../Common/HelperInputFields\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Common/OnlineUsersSelect.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Common/OnlineUsersSelect.tsx`:",
             "imports": "      1: import { CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Common/prescription-builder/PrescriptionDropdown.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Common/prescription-builder/PrescriptionDropdown.tsx`:",
             "imports": "      2: import { Tooltip } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Common/utils/HelpToolTip.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Common/utils/HelpToolTip.tsx`:",
             "imports": "      2: import Tooltip from \"@material-ui/core/Tooltip\";\\n      3: import HelpOutlineIcon from \"@material-ui/icons/HelpOutline\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/DeathReport/DeathReport.tsx`:",
+            "title": "Replace Material UI components in `src/Components/DeathReport/DeathReport.tsx`:",
             "imports": "      11: import { InputLabel } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/ExternalResult/ResultList.tsx`:",
+            "title": "Replace Material UI components in `src/Components/ExternalResult/ResultList.tsx`:",
             "imports": "      2: import { Button } from \"@material-ui/core\";\\n      3: import CircularProgress from \"@material-ui/core/CircularProgress\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/ExternalResult/ResultUpdate.tsx`:",
+            "title": "Replace Material UI components in `src/Components/ExternalResult/ResultUpdate.tsx`:",
             "imports": "      10: } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/AddBedForm.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/AddBedForm.tsx`:",
             "imports": "      1: import { Card, CardContent, InputLabel } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/AddInventoryForm.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/AddInventoryForm.tsx`:",
             "imports": "      1: import { Card, CardContent, InputLabel } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/AddLocationForm.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/AddLocationForm.tsx`:",
             "imports": "      1: import { Card, CardContent, InputLabel } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/AssetCreate.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/AssetCreate.tsx`:",
             "imports": "      10: import CropFreeIcon from \"@material-ui/icons/CropFree\";\\n      20: import { LocationOnOutlined } from \"@material-ui/icons\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/BedDeleteDialog.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/BedDeleteDialog.tsx`:",
             "imports": "      8: } from \"@material-ui/core\";\\n      9: import { WithStyles, withStyles } from \"@material-ui/styles\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/ConsultationCard.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/ConsultationCard.tsx`:",
             "imports": "      1: import { CardContent, Typography } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/ConsultationDetails.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/ConsultationDetails.tsx`:",
             "imports": "      2: import { Button, CircularProgress } from \"@material-ui/core\";\\n      35: import Dialog from \"@material-ui/core/Dialog\";\\n      36: import DialogActions from \"@material-ui/core/DialogActions\";\\n      37: import DialogContent from \"@material-ui/core/DialogContent\";\\n      38: import DialogContentText from \"@material-ui/core/DialogContentText\";\\n      39: import DialogTitle from \"@material-ui/core/DialogTitle\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/ConsultationForm.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/ConsultationForm.tsx`:",
             "imports": "      2: import { Box, FormControlLabel, Radio, RadioGroup } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Consultations/NutritionPlots.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Consultations/NutritionPlots.tsx`:",
             "imports": "      6: import ExpandMoreIcon from \"@material-ui/icons/ExpandMore\";\\n      7: import ExpandLessIcon from \"@material-ui/icons/ExpandLess\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/CoverImageEditModal.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/CoverImageEditModal.tsx`:",
             "imports": "      1: import { Modal } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/FacilityCreate.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/FacilityCreate.tsx`:",
             "imports": "      1: import { Card, CardContent } from \"@material-ui/core\";\\n      2: import Popover from \"@material-ui/core/Popover\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/FacilityHome.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/FacilityHome.tsx`:",
             "imports": "      5: import Dialog from \"@material-ui/core/Dialog\";\\n      6: import DialogActions from \"@material-ui/core/DialogActions\";\\n      7: import DialogTitle from \"@material-ui/core/DialogTitle\";\\n      8: import DialogContent from \"@material-ui/core/DialogContent\";\\n      9: import DialogContentText from \"@material-ui/core/DialogContentText\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/FacilityUsers.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/FacilityUsers.tsx`:",
             "imports": "      18: import { IconButton, CircularProgress } from \"@material-ui/core\";\\n      19: import CloseIcon from \"@material-ui/icons/Close\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/HospitalList.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/HospitalList.tsx`:",
             "imports": "      18: import CircularProgress from \"@material-ui/core/CircularProgress\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/InventoryList.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/InventoryList.tsx`:",
             "imports": "      3: import { Button } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/InventoryLog.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/InventoryLog.tsx`:",
             "imports": "      13: import { Tooltip } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/SetInventoryForm.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/SetInventoryForm.tsx`:",
             "imports": "      1: import { Card, CardContent, InputLabel } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/TransferPatientDialog.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/TransferPatientDialog.tsx`:",
             "imports": "      7: } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/TriageForm.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/TriageForm.tsx`:",
             "imports": "      1: import { Card, CardContent, InputLabel, Modal } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/UpdateFacilityMiddleware.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/UpdateFacilityMiddleware.tsx`:",
             "imports": "      1: import { Card, CardContent } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Consultations/Beds.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Consultations/Beds.tsx`:",
             "imports": "      12: import CircularProgress from \"@material-ui/core/CircularProgress\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Consultations/DailyRoundsList.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Consultations/DailyRoundsList.tsx`:",
             "imports": "      1: import { Grid, Typography } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Consultations/Feed.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Consultations/Feed.tsx`:",
             "imports": "      26: import { Tooltip } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Consultations/FeedButton.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Consultations/FeedButton.tsx`:",
             "imports": "      1: import { Tooltip } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Consultations/LiveFeed.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Consultations/LiveFeed.tsx`:",
             "imports": "      12: import RefreshIcon from \"@material-ui/icons/Refresh\";\\n      27: } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/FacilityFilter/index.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/FacilityFilter/index.tsx`:",
             "imports": "      4: import { CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Investigations/index.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Investigations/index.tsx`:",
             "imports": "      5: import Autocomplete from \"@material-ui/lab/Autocomplete\";\\n      6: import { Checkbox, TextField, InputLabel } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Investigations/InvestigationTable.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Investigations/InvestigationTable.tsx`:",
             "imports": "      12: } from \"@material-ui/core\";\\n      13: import { createStyles, withStyles } from \"@material-ui/styles\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Investigations/Table.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Investigations/Table.tsx`:",
             "imports": "      13: } from \"@material-ui/core\";\\n      15: import { createStyles, makeStyles, withStyles } from \"@material-ui/styles\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Investigations/Reports/index.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Investigations/Reports/index.tsx`:",
             "imports": "      13: import { Button, ButtonGroup, Checkbox, TextField } from \"@material-ui/core\";\\n      16: import Autocomplete from \"@material-ui/lab/Autocomplete\";\\n      17: import { InputLabel, makeStyles, CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Facility/Investigations/Reports/ReportTable.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Facility/Investigations/Reports/ReportTable.tsx`:",
             "imports": "      14: } from \"@material-ui/core\";\\n      15: import { createStyles, makeStyles, withStyles } from \"@material-ui/styles\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Notifications/NoticeBoard.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Notifications/NoticeBoard.tsx`:",
             "imports": "      5: import { Card, CardContent } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Notifications/NotificationsList.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Notifications/NotificationsList.tsx`:",
             "imports": "      12: import { CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/DailyRoundListDetails.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/DailyRoundListDetails.tsx`:",
             "imports": "      1: import { Button } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/DailyRounds.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/DailyRounds.tsx`:",
             "imports": "      7: } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/FileUpload.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/FileUpload.tsx`:",
             "imports": "      2: import { CircularProgress, InputLabel } from \"@material-ui/core\";\\n      16: import LinearProgress from \"@material-ui/core/LinearProgress\";\\n      17: import Typography from \"@material-ui/core/Typography\";\\n      18: import Box from \"@material-ui/core/Box\";\\n      21: import Modal from \"@material-ui/core/Modal\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/ManagePatients.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/ManagePatients.tsx`:",
             "imports": "      9: import { CircularProgress, Tooltip } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/PatientHome.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/PatientHome.tsx`:",
             "imports": "      1: import { CircularProgress } from \"@material-ui/core\";\\n      26: import Dialog from \"@material-ui/core/Dialog\";\\n      27: import DialogActions from \"@material-ui/core/DialogActions\";\\n      28: import DialogTitle from \"@material-ui/core/DialogTitle\";\\n      30: import Modal from \"@material-ui/core/Modal\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/PatientRegister.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/PatientRegister.tsx`:",
             "imports": "      9: } from \"@material-ui/core\";\\n      53: import { InfoOutlined } from \"@material-ui/icons\";\\n      54: import ExpandMoreIcon from \"@material-ui/icons/ExpandMore\";\\n      70: import { MaterialUiPickersDate } from \"@material-ui/pickers/typings/date\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/SampleDetails.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/SampleDetails.tsx`:",
             "imports": "      1: import { Card, CardContent, Button } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/SampleFilters.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/SampleFilters.tsx`:",
             "imports": "      13: import { CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/SamplePreview.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/SamplePreview.tsx`:",
             "imports": "      2: import { Box, Button, Paper, Typography } from \"@material-ui/core\";\\n      3: import { makeStyles } from \"@material-ui/core/styles\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/SampleTest.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/SampleTest.tsx`:",
             "imports": "      1: import { Card, CardContent } from \"@material-ui/core\";\\n      20: import Typography from \"@material-ui/core/Typography\";\\n      21: import Container from \"@material-ui/core/Container\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/SampleTestCard.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/SampleTestCard.tsx`:",
             "imports": "      1: import { CardContent } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/SampleViewAdmin.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/SampleViewAdmin.tsx`:",
             "imports": "      1: import { CircularProgress } from \"@material-ui/core\";\\n      2: import WarningRoundedIcon from \"@material-ui/icons/WarningRounded\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/ShiftCreate.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/ShiftCreate.tsx`:",
             "imports": "      21: } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Patient/UpdateStatusDialog.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Patient/UpdateStatusDialog.tsx`:",
             "imports": "      6: } from \"@material-ui/core\";\\n      7: import CloudUploadOutlineIcon from \"@material-ui/icons/CloudUpload\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Resource/CommentSection.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Resource/CommentSection.tsx`:",
             "imports": "      5: import { Button, CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Resource/ListFilter.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Resource/ListFilter.tsx`:",
             "imports": "      8: import { CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Resource/ResourceBoard.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Resource/ResourceBoard.tsx`:",
             "imports": "      7: import CircularProgress from \"@material-ui/core/CircularProgress\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Resource/ResourceCreate.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Resource/ResourceCreate.tsx`:",
             "imports": "      26: } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Resource/ResourceDetails.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Resource/ResourceDetails.tsx`:",
             "imports": "      8: import Button from \"@material-ui/core/Button\";\\n      10: import Dialog from \"@material-ui/core/Dialog\";\\n      11: import DialogActions from \"@material-ui/core/DialogActions\";\\n      12: import DialogContent from \"@material-ui/core/DialogContent\";\\n      13: import DialogContentText from \"@material-ui/core/DialogContentText\";\\n      14: import DialogTitle from \"@material-ui/core/DialogTitle\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Resource/ResourceDetailsUpdate.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Resource/ResourceDetailsUpdate.tsx`:",
             "imports": "      23: import { CircularProgress } from \"@material-ui/core\";\\n      32: } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Shifting/CommentsSection.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Shifting/CommentsSection.tsx`:",
             "imports": "      5: import { Button, CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Shifting/ListFilter.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Shifting/ListFilter.tsx`:",
             "imports": "      14: import { CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Shifting/ListView.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Shifting/ListView.tsx`:",
             "imports": "      13: import { Modal, Button } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Shifting/ShiftDetails.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Shifting/ShiftDetails.tsx`:",
             "imports": "      7: import Button from \"@material-ui/core/Button\";\\n      10: import Dialog from \"@material-ui/core/Dialog\";\\n      11: import DialogActions from \"@material-ui/core/DialogActions\";\\n      12: import DialogContent from \"@material-ui/core/DialogContent\";\\n      13: import DialogContentText from \"@material-ui/core/DialogContentText\";\\n      14: import DialogTitle from \"@material-ui/core/DialogTitle\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Shifting/ShiftDetailsUpdate.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Shifting/ShiftDetailsUpdate.tsx`:",
             "imports": "      18: import { CircularProgress } from \"@material-ui/core\";\\n      28: } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Shifting/ShiftingBoard.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Shifting/ShiftingBoard.tsx`:",
             "imports": "      8: import Button from \"@material-ui/core/Button\";\\n      11: import { Modal } from \"@material-ui/core\";\\n      13: import CircularProgress from \"@material-ui/core/CircularProgress\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Users/LinkFacilityDialog.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Users/LinkFacilityDialog.tsx`:",
             "imports": "      7: } from \"@material-ui/core\";\\n      11: import { makeStyles } from \"@material-ui/core/styles\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Users/ManageUsers.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Users/ManageUsers.tsx`:",
             "imports": "      19: import { CircularProgress, Button } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Users/UnlinkSkillDialog.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Users/UnlinkSkillDialog.tsx`:",
             "imports": "      8: } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Users/UserAdd.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Users/UserAdd.tsx`:",
             "imports": "      1: import { Card, CardContent, CircularProgress } from \"@material-ui/core\";"
         },
         {
-            "title": "Replace with CareUI components in `src/Components/Users/UserDeleteDialog.tsx`:",
+            "title": "Replace Material UI components in `src/Components/Users/UserDeleteDialog.tsx`:",
             "imports": "      8: } from \"@material-ui/core\";"
         }
     ]
