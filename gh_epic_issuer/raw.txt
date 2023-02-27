@@ -1,0 +1,291 @@
+- [ ] Replace with CareUI components in `src/Components/Assets/AssetImportModal.tsx`:
+      1: import { Modal } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Assets/AssetsList.tsx`:
+      17: import CircularProgress from "@material-ui/core/CircularProgress";
+
+- [ ] Replace with CareUI components in `src/Components/Auth/Login.tsx`:
+      4: import { Grid, CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Auth/ResetPassword.tsx`:
+      2: import { Typography, CardContent, Button } from "@material-ui/core";
+      3: import { TextInputField, ErrorHelperText } from "../Common/HelperInputFields";
+      6: import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+      7: import ExpansionPanel from "@material-ui/core/ExpansionPanel";
+      8: import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
+
+- [ ] Replace with CareUI components in `src/Components/Common/GLocationPicker.tsx`:
+      5: import PersonPinIcon from "@material-ui/icons/PersonPin";
+
+- [ ] Replace with CareUI components in `src/Components/Common/LanguageSelector.tsx`:
+      2: import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+
+- [ ] Replace with CareUI components in `src/Components/Common/Loading.tsx`:
+      2: import { Grid } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Common/LocationSelect.tsx`:
+      4: import { AutoCompleteAsyncField } from "../Common/HelperInputFields";
+
+- [ ] Replace with CareUI components in `src/Components/Common/OnlineUsersSelect.tsx`:
+      1: import { CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Common/prescription-builder/PrescriptionDropdown.tsx`:
+      2: import { Tooltip } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Common/utils/HelpToolTip.tsx`:
+      2: import Tooltip from "@material-ui/core/Tooltip";
+      3: import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
+
+- [ ] Replace with CareUI components in `src/Components/DeathReport/DeathReport.tsx`:
+      11: import { InputLabel } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/ExternalResult/ResultList.tsx`:
+      2: import { Button } from "@material-ui/core";
+      3: import CircularProgress from "@material-ui/core/CircularProgress";
+
+- [ ] Replace with CareUI components in `src/Components/ExternalResult/ResultUpdate.tsx`:
+      10: } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/AddBedForm.tsx`:
+      1: import { Card, CardContent, InputLabel } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/AddInventoryForm.tsx`:
+      1: import { Card, CardContent, InputLabel } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/AddLocationForm.tsx`:
+      1: import { Card, CardContent, InputLabel } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/AssetCreate.tsx`:
+      10: import CropFreeIcon from "@material-ui/icons/CropFree";
+      20: import { LocationOnOutlined } from "@material-ui/icons";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/BedDeleteDialog.tsx`:
+      8: } from "@material-ui/core";
+      9: import { WithStyles, withStyles } from "@material-ui/styles";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/ConsultationCard.tsx`:
+      1: import { CardContent, Typography } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/ConsultationDetails.tsx`:
+      2: import { Button, CircularProgress } from "@material-ui/core";
+      35: import Dialog from "@material-ui/core/Dialog";
+      36: import DialogActions from "@material-ui/core/DialogActions";
+      37: import DialogContent from "@material-ui/core/DialogContent";
+      38: import DialogContentText from "@material-ui/core/DialogContentText";
+      39: import DialogTitle from "@material-ui/core/DialogTitle";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/ConsultationForm.tsx`:
+      2: import { Box, FormControlLabel, Radio, RadioGroup } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Consultations/NutritionPlots.tsx`:
+      6: import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+      7: import ExpandLessIcon from "@material-ui/icons/ExpandLess";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/CoverImageEditModal.tsx`:
+      1: import { Modal } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/FacilityCreate.tsx`:
+      1: import { Card, CardContent } from "@material-ui/core";
+      2: import Popover from "@material-ui/core/Popover";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/FacilityHome.tsx`:
+      5: import Dialog from "@material-ui/core/Dialog";
+      6: import DialogActions from "@material-ui/core/DialogActions";
+      7: import DialogTitle from "@material-ui/core/DialogTitle";
+      8: import DialogContent from "@material-ui/core/DialogContent";
+      9: import DialogContentText from "@material-ui/core/DialogContentText";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/FacilityUsers.tsx`:
+      18: import { IconButton, CircularProgress } from "@material-ui/core";
+      19: import CloseIcon from "@material-ui/icons/Close";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/HospitalList.tsx`:
+      18: import CircularProgress from "@material-ui/core/CircularProgress";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/InventoryList.tsx`:
+      3: import { Button } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/InventoryLog.tsx`:
+      13: import { Tooltip } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/SetInventoryForm.tsx`:
+      1: import { Card, CardContent, InputLabel } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/TransferPatientDialog.tsx`:
+      7: } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/TriageForm.tsx`:
+      1: import { Card, CardContent, InputLabel, Modal } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/UpdateFacilityMiddleware.tsx`:
+      1: import { Card, CardContent } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Consultations/Beds.tsx`:
+      12: import CircularProgress from "@material-ui/core/CircularProgress";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Consultations/DailyRoundsList.tsx`:
+      1: import { Grid, Typography } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Consultations/Feed.tsx`:
+      26: import { Tooltip } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Consultations/FeedButton.tsx`:
+      1: import { Tooltip } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Consultations/LiveFeed.tsx`:
+      12: import RefreshIcon from "@material-ui/icons/Refresh";
+      27: } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/FacilityFilter/index.tsx`:
+      4: import { CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Investigations/index.tsx`:
+      5: import Autocomplete from "@material-ui/lab/Autocomplete";
+      6: import { Checkbox, TextField, InputLabel } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Investigations/InvestigationTable.tsx`:
+      12: } from "@material-ui/core";
+      13: import { createStyles, withStyles } from "@material-ui/styles";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Investigations/Table.tsx`:
+      13: } from "@material-ui/core";
+      15: import { createStyles, makeStyles, withStyles } from "@material-ui/styles";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Investigations/Reports/index.tsx`:
+      13: import { Button, ButtonGroup, Checkbox, TextField } from "@material-ui/core";
+      16: import Autocomplete from "@material-ui/lab/Autocomplete";
+      17: import { InputLabel, makeStyles, CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Facility/Investigations/Reports/ReportTable.tsx`:
+      14: } from "@material-ui/core";
+      15: import { createStyles, makeStyles, withStyles } from "@material-ui/styles";
+
+- [ ] Replace with CareUI components in `src/Components/Notifications/NoticeBoard.tsx`:
+      5: import { Card, CardContent } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Notifications/NotificationsList.tsx`:
+      12: import { CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/DailyRoundListDetails.tsx`:
+      1: import { Button } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/DailyRounds.tsx`:
+      7: } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/FileUpload.tsx`:
+      2: import { CircularProgress, InputLabel } from "@material-ui/core";
+      16: import LinearProgress from "@material-ui/core/LinearProgress";
+      17: import Typography from "@material-ui/core/Typography";
+      18: import Box from "@material-ui/core/Box";
+      21: import Modal from "@material-ui/core/Modal";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/ManagePatients.tsx`:
+      9: import { CircularProgress, Tooltip } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/PatientHome.tsx`:
+      1: import { CircularProgress } from "@material-ui/core";
+      26: import Dialog from "@material-ui/core/Dialog";
+      27: import DialogActions from "@material-ui/core/DialogActions";
+      28: import DialogTitle from "@material-ui/core/DialogTitle";
+      30: import Modal from "@material-ui/core/Modal";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/PatientRegister.tsx`:
+      9: } from "@material-ui/core";
+      53: import { InfoOutlined } from "@material-ui/icons";
+      54: import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+      70: import { MaterialUiPickersDate } from "@material-ui/pickers/typings/date";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/SampleDetails.tsx`:
+      1: import { Card, CardContent, Button } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/SampleFilters.tsx`:
+      13: import { CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/SamplePreview.tsx`:
+      2: import { Box, Button, Paper, Typography } from "@material-ui/core";
+      3: import { makeStyles } from "@material-ui/core/styles";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/SampleTest.tsx`:
+      1: import { Card, CardContent } from "@material-ui/core";
+      20: import Typography from "@material-ui/core/Typography";
+      21: import Container from "@material-ui/core/Container";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/SampleTestCard.tsx`:
+      1: import { CardContent } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/SampleViewAdmin.tsx`:
+      1: import { CircularProgress } from "@material-ui/core";
+      2: import WarningRoundedIcon from "@material-ui/icons/WarningRounded";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/ShiftCreate.tsx`:
+      21: } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Patient/UpdateStatusDialog.tsx`:
+      6: } from "@material-ui/core";
+      7: import CloudUploadOutlineIcon from "@material-ui/icons/CloudUpload";
+
+- [ ] Replace with CareUI components in `src/Components/Resource/CommentSection.tsx`:
+      5: import { Button, CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Resource/ListFilter.tsx`:
+      8: import { CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Resource/ResourceBoard.tsx`:
+      7: import CircularProgress from "@material-ui/core/CircularProgress";
+
+- [ ] Replace with CareUI components in `src/Components/Resource/ResourceCreate.tsx`:
+      26: } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Resource/ResourceDetails.tsx`:
+      8: import Button from "@material-ui/core/Button";
+      10: import Dialog from "@material-ui/core/Dialog";
+      11: import DialogActions from "@material-ui/core/DialogActions";
+      12: import DialogContent from "@material-ui/core/DialogContent";
+      13: import DialogContentText from "@material-ui/core/DialogContentText";
+      14: import DialogTitle from "@material-ui/core/DialogTitle";
+
+- [ ] Replace with CareUI components in `src/Components/Resource/ResourceDetailsUpdate.tsx`:
+      23: import { CircularProgress } from "@material-ui/core";
+      32: } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Shifting/CommentsSection.tsx`:
+      5: import { Button, CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Shifting/ListFilter.tsx`:
+      14: import { CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Shifting/ListView.tsx`:
+      13: import { Modal, Button } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Shifting/ShiftDetails.tsx`:
+      7: import Button from "@material-ui/core/Button";
+      10: import Dialog from "@material-ui/core/Dialog";
+      11: import DialogActions from "@material-ui/core/DialogActions";
+      12: import DialogContent from "@material-ui/core/DialogContent";
+      13: import DialogContentText from "@material-ui/core/DialogContentText";
+      14: import DialogTitle from "@material-ui/core/DialogTitle";
+
+- [ ] Replace with CareUI components in `src/Components/Shifting/ShiftDetailsUpdate.tsx`:
+      18: import { CircularProgress } from "@material-ui/core";
+      28: } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Shifting/ShiftingBoard.tsx`:
+      8: import Button from "@material-ui/core/Button";
+      11: import { Modal } from "@material-ui/core";
+      13: import CircularProgress from "@material-ui/core/CircularProgress";
+
+- [ ] Replace with CareUI components in `src/Components/Users/LinkFacilityDialog.tsx`:
+      7: } from "@material-ui/core";
+      11: import { makeStyles } from "@material-ui/core/styles";
+
+- [ ] Replace with CareUI components in `src/Components/Users/ManageUsers.tsx`:
+      19: import { CircularProgress, Button } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Users/UnlinkSkillDialog.tsx`:
+      8: } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Users/UserAdd.tsx`:
+      1: import { Card, CardContent, CircularProgress } from "@material-ui/core";
+
+- [ ] Replace with CareUI components in `src/Components/Users/UserDeleteDialog.tsx`:
+      8: } from "@material-ui/core";
