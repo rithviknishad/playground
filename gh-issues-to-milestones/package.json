@@ -1,0 +1,16 @@
+{
+  "name": "gh-issues-to-milestones",
+  "version": "1.0.0",
+  "author": "",
+  "main": "index.js",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@octokit/rest": "^21.0.2",
+    "@types/node": "^22.4.1"
+  }
+}
