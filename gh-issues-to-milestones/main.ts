@@ -19,11 +19,12 @@ const milestone = parseInt(process.env.MILESTONE!);
 const labels = process.env.LABELS!;
 
 async function getIssues() {
-  const issues = await octokit.issues.list({
+  const issues = await octokit.issues.listForRepo({
     owner,
     repo,
     labels,
     state: "all",
+    per_page: 100,
   });
 
   if (!issues.data.length) {
